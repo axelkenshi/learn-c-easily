@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main() {
-  int bil_bulat = 9;
-  // cara cetak nilai bil_bulat
-  printf("%d", bil_bulat);
+  int angka = 9;
+  
+  // cetak nilai angka
+  printf("%d", angka);
 
   // sekedar menampilkan ukuran tipe data
-    printf("Ukuran int: %lu bytes\n", sizeof(bil_bulat));
+    printf("Ukuran int: %lu bytes\n", sizeof(angka));
   return 0;
 }
