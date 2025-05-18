@@ -5,7 +5,7 @@ int main() {
     printf("Huruf yang disimpan: %c\n", huruf); // %c Menampilkan huruf yang disimpan
 
     // jika ingin merangkai kalimat dari beberapa huruf
-    char *kalimat = "Halo, dunia!";
+    char kalimat[100] = "Halo, dunia!";
     printf("Kalimat yang disimpan: %s\n", kalimat);
     return 0;
 }
